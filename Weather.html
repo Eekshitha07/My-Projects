@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #92f1aa, #4682B4);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #b2df6a;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .weather-box {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem auto;
+            max-width: 600px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .weather-box h2 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .weather-box p {
+            font-size: 1.2rem;
+        }
+        footer {
+            background-color: #41e1cc;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Weather Report</h1>
+    </header>
+
+    <div class="container">
+        <div class="weather-box">
+            <h2>City: Kurnool</h2>
+            <p>Temperature: 28&#8451;</p>
+            <p>Condition: Sunny</p>
+        </div>
+        <div class="weather-box">
+            <h2>City: Dallas</h2>
+            <p>Temperature: 5&#8451;</p>
+            <p>Condition: Partly Cloudy</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Weather Report Inc.</p>
+    </footer>
+</body>
+</html>
